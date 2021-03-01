@@ -23,5 +23,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.facebook.react:react-native:+'
-    compile(name: 'com.heytap.msp', ext: 'aar')
+    implementation(name: 'com.heytap.msp-push-2.1.0', ext: 'aar')
 }
